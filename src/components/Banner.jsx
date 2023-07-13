@@ -1,0 +1,20 @@
+import '../assets/css/Banner.css'
+import fotoBanner from '../assets/img/imgBanner.png'
+import React from 'react'
+
+const Banner = () => {
+  return (
+    <div className='banner'>
+      <div className='contenedorimg'>
+        <img className='foto' src={fotoBanner} alt="" />
+        <div className='titulo'>
+            <h1>HAPPY PIZZA</h1>
+            <p>¡Tenemos las mejores pizzas que podrás encontrar!</p>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export default Banner

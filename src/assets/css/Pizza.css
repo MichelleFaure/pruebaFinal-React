@@ -1,0 +1,55 @@
+.detallepizza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #b04628;
+    font-family: 'Lilita One', cursive;
+    margin: 2rem;
+    color: wheat;
+
+}
+
+.pizza-info{
+    padding: 1rem;
+}
+
+.detallepizza img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.detallepizza p{
+   margin: 0.5rem ; 
+   font-size: 1rem;
+}
+
+.btn-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.detallepizza button{
+    padding: 0.5rem;
+    margin: 1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #b04628;
+    cursor: pointer;
+}
+
+@media (min-width:780px){
+    .detallepizza{
+        flex-direction: row;
+        width: 80%;
+
+    
+    }
+
+    .detallepizza img{
+        width: 50%;
+        border-radius: 10px;
+    }
+}

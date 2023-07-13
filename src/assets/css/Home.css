@@ -1,0 +1,47 @@
+.home{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home h2{
+    color: #B04628;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Lilita One', cursive; 
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+
+.home h2::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    min-width: 60%;
+    background-color: #B04628;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+
+.homeCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 60%;
+}
+
+
+@media (min-width:780px) {
+    .home h2{
+
+        width: 60%;
+    }
+
+    .home h2::after{
+        min-width: 80%;
+    }
+}

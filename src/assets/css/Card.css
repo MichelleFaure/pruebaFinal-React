@@ -1,0 +1,62 @@
+.cardContainer{
+    color: wheat;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #b04628;
+    border-radius: 5px ;
+    text-align: center;
+
+}
+
+.cardContainer h3{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+.cardContainer h4{
+    margin: 0.5rem;
+}
+
+.ingredientes{
+    margin-bottom: 1rem;
+}
+
+.precio{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cardContainer img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardInfo{
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cardContainer button{
+    padding: 0.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #b04628;
+    cursor: pointer;
+}
+
+.btn-add{
+    background-color: #b04628 ;
+}
+
+.btn-vermas{
+    background-color: transparent;
+}

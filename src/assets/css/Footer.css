@@ -1,0 +1,24 @@
+.footer{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #b04628 ;
+    font-family: 'Lilita One', cursive;
+    margin-top: 2rem;
+}
+
+.footer img{
+    width: 100px;
+}
+
+.redes{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.footer li{
+    cursor: pointer;
+}

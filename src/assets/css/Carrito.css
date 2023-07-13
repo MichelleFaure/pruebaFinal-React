@@ -1,0 +1,109 @@
+.carritoContainer{
+    color: wheat;
+    display: flex;
+    margin: 2rem;  
+}
+
+.producto-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #b04628;
+    border-radius: 5px ;
+
+}
+
+.producto-imagen{
+    width:100px;
+}
+
+.producto-imagen img{
+    width: 100%;
+}
+
+.producto-title{
+    text-align: start;
+    width: 200px;
+}
+
+.producto-title button{
+    background-color: transparent;
+    color:red;
+    border: none;
+}
+
+.producto-btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.producto-btns button{
+   padding: 0.5rem;
+
+}
+
+.carrito-right{
+    background-color: #b04628 ;
+    height: min-content;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px ;
+    font-family: 'Lilita One', cursive;
+
+
+}
+.carrito-right h1{
+    font-weight: 400;
+}
+.carrito-right p{
+    margin: 3rem 0;
+    font-size: 1.5rem;
+
+}
+
+.carrito-right button{
+    font-family: 'Lilita One', cursive;
+    font-size: 1.5rem;
+    background-color: wheat;
+    border: none;
+    padding: 0.5rem 1rem;  
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+
+.producto-subtotal{
+    width: 80px;
+}
+
+@media (max-width:780px){
+    .carritoContainer{
+        color: wheat;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .producto-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 0.5rem;
+    
+        color: wheat;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid #b04628;
+        border-radius: 5px ;
+    
+    }
+
+    .producto-title{
+        text-align: center;
+    }
+}
